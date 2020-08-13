@@ -1,0 +1,21 @@
+/* components/navBox/navBox.wxss */
+.itembox{
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  /* margin-top: -30rpx; */
+}
+
+.item{
+  flex: 1;
+  /* border: 2px solid red; */
+  height: 120px;
+  text-align: center;
+  margin-top: 0rpx;
+}
+
+.item image{
+  margin-top: 40rpx;
+  width: 135rpx;
+  height: 135rpx;
+}

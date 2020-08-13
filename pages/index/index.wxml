@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="userinfo">
+    <button style="position:absolute;bottom:250rpx;left:0;right:0;background:#EDF4FB;opcity:0.5;color:#FC7766;" wx:if="{{true}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 进入小程序</button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>

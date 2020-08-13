@@ -1,0 +1,5 @@
+<!--pages/profile/childCops/sysmsg/sysmsg.wxml-->
+<view class="notice" wx:for="{{sysMsg}}" wx:key="index">
+  <view class="date">{{item.date}}</view>
+  <view class="msg">{{item.msg}}</view>
+</view>

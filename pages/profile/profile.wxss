@@ -1,0 +1,19 @@
+/* pages/profile/profile.wxss */
+.exit{
+  background-color: #FC7766;
+  width: 400rpx;
+  height: 80rpx;
+  margin: 0 auto;
+  margin-top: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 40rpx;
+  color: white;
+  border-radius: 40rpx;
+}
+
+.bottom_style{
+  display: block;
+  margin-top: 80rpx;
+  /* border: 2px solid red; */
+}

@@ -1,0 +1,36 @@
+<!--pages/profile/childCops/mymsg/mymsg.wxml-->
+<view class="notice" wx:if="{{show0}}">
+收藏列表为空！
+</view>
+
+<view wx:if="{{show1}}">
+<view class="item" wx:for="{{commentList}}" wx:key="index">
+  <view class="top">
+    <view class="img">
+      <image src="{{item.img}}"></image>  
+    </view>
+    <view class="center">
+    {{item.informationName}}
+    </view>
+    <view class="you">
+      <span bindtap="delete" data-msgId="{{item.informationId}}">删除</span>
+    </view>
+  </view>
+  
+
+
+  <view class="mid"  bindtap="jump"
+  data-hotspot="{{item.hotspot}}" data-img="{{item.img}}" data-informationId="{{item.informationId}}" data-informationName="{{item.informationName}}" data-introduce="{{item.introduce}}" data-method="{{item.method}}"
+  >
+     <view class="right">
+    您收藏了 <span> {{item.informationName}} </span> 这篇文章！
+    </view>
+  </view>
+
+  <view class="bottom">
+    {{item.message.date}}
+  </view>
+</view>
+
+</view>
+

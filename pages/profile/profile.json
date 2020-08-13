@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "top":"./childCops/top/top",
+    "bottom": "./childCops/bottom/bottom"
+  },
+  "navigationBarTitleText": "我的个人信息"
+}

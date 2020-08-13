@@ -1,0 +1,88 @@
+/* pages/profile/childCops/mymsg/mymsg.wxss */
+page{
+  height: 100%;
+  background: rgb(247, 241, 241);
+}
+
+.item{
+  width: 100%;
+  height: 250rpx;
+  background: white;
+  margin-bottom: 20rpx;
+}
+
+.top{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  padding:0 20rpx;
+  /* border: 2px solid green; */
+}
+
+.img{
+  width: 80rpx;
+  height: 80rpx;
+  margin: 0 auto;
+  margin-top: 10rpx;
+
+  /* border: 2px solid green; */
+}
+
+.img image{
+  width: 100%;
+  height: 100%;
+}
+
+.center{
+  flex:3;
+  /* border: 2px solid green; */
+  line-height: 100rpx;
+  padding-left: 10rpx;
+}
+
+.you{
+  flex: 1.5;
+  /* border: 2px solid red; */
+  line-height: 100rpx;
+}
+
+.you span{
+  display: block;
+  width: 100rpx;
+  margin-top: 25rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  color: white;
+  background: rgb(18, 20, 6);
+  text-align: center;
+  border-radius: 20rpx 0 30rpx 0;
+  transform: rotate(-5deg);
+}
+
+.right{
+  margin-left: 100rpx;
+  /* border: 2px solid green; */
+  line-height: 80rpx;
+}
+
+.right span{
+  color: rgb(219, 125, 71);
+}
+
+.bottom{
+  height: 50rpx;
+  line-height: 25rpx;
+  padding: 0 50rpx;
+  text-align: right;
+  font-size: 25rpx;
+  color: rgb(119, 116, 116);
+}
+
+.notice{
+  width: 100%;
+  height: 250rpx;
+  background: white;
+  color: black;
+  line-height: 250rpx;
+  text-align: center;
+}

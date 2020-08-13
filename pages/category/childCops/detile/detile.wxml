@@ -1,0 +1,63 @@
+<!--pages/category/childCops/detile/detile.wxml-->
+
+<view class="first" style="display:{{first_show}}">
+  <loading></loading>
+</view>
+
+<view class="shoucang" wx:if="{{scshow}}">
+  {{scmsg}}
+</view>
+
+<view class="second" style="display:{{second_show}}">
+  <view class="image">
+    <image bindload="change_show" src="{{img}}"></image>
+  </view>
+
+  <view class="something_box">
+
+    <view class="name">{{informationName}}</view>
+    <view class="introduce">{{introduce}}</view>
+    <view class="name">治疗方法</view>
+    <view class="method">{{method}}</view>
+    <view class="name">相关评论</view>
+    <view class="comment">
+      <view class="item" wx:for="{{comment}}" wx:key="index">
+        <view class="top">
+          <view class="img">
+            <image src="{{item.user.img}}"></image>
+          </view>
+          <view class="name2">
+            {{item.user.userName}}
+          </view>
+        </view>
+        <view class="info">
+          {{item.comment.commentMsg}}
+        </view>
+        <view class="bottom">
+          <!-- <span>收藏</span> -->
+          <span bindtap="parseAdd" data-conmentId="{{item.comment.commentId}}" data-userId="{{item.user.userId}}" data-id="{{informationId}}" data-number="{{1}}">
+            <!-- {{item.comment.praisePoints}} -->
+            <view class="dianzan">点赞</view>
+            <view class="tupian">
+              <image src="{{imgList[0].url}}">
+              </image>
+              {{item.comment.praisePoints}}
+            </view>
+          </span>
+        </view>
+      </view>
+
+    </view>
+     <view class="sc" bindtap="scRequset" >
+        <view class="text22">
+          <span>☞ </span> <label> 方法不错，加入收藏</label>
+        </view>
+     </view>
+  
+  </view>
+  
+  <view class="pinglun">
+    <textarea bindinput="getMSG" value="{{data222}}" placeholder="请输入您的回复......" cursor-spacing="25" adjust-position="true" fixed="true" class="text"></textarea>
+    <span class="btn" bindtap="push_comment" data-id="{{informationId}}">+</span>
+  </view>
+</view>

@@ -1,0 +1,9 @@
+<!--components/fenjieBox/fenjiebox.wxml-->
+<view>
+    <view class="imagebox">
+       <view class="text">热点新闻速递</view>
+       <view class="symbol"></view>
+       <view class="symbol1"></view>
+       <view class="symbol2"></view>
+    </view>
+</view>

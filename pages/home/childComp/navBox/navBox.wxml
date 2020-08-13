@@ -1,0 +1,12 @@
+<!--components/navBox/navBox.wxml-->
+<view class = "itembox">
+  <view class="item">
+      <image src="/assets/home/rd.png" bindtap="jump1"></image>
+  </view>
+  <view class="item">
+      <image src="/assets/home/dt.png" bindtap="jump3"></image>
+  </view>
+  <view class="item">
+      <image src="/assets/home/phb.png" bindtap="jump2"></image>
+  </view>
+</view>

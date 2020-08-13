@@ -1,0 +1,42 @@
+/* pages/profile/childCops/bottom/bottom.wxss */
+.item{
+  width: 100%;
+  height: 120rpx;
+  background: white;
+  margin-top: 15rpx;
+  border-top: 1px solid rgb(243,243,243);
+  display: flex;
+}
+
+.item .image{
+  flex: 0.1;
+  height: 60rpx;
+  margin-top: 30rpx;
+  margin-left: 40rpx;
+}
+
+.item .image image{
+  width: 100%;
+  height: 100%;
+}
+
+.item .text{
+  flex: 0.75;
+  height: 70rpx;
+  line-height: 70rpx;
+  margin-top: 25rpx;
+  margin-left: 20rpx;
+  font-size: 36rpx;
+}
+
+.item .enter{
+  flex: 0.1;
+  height: 60rpx;
+  margin-top: 30rpx;
+  margin-left: 40rpx;
+}
+
+.item .enter image{
+  width: 100%;
+  height: 100%;
+}

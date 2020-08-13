@@ -1,0 +1,10 @@
+<!--pages/profile/childCops/bottom/bottom.wxml-->
+<view class="item" wx:for="{{profileList}}" bindtap="jump" data-text="{{item.text}}" data-url="{{item.url}}" data-imageurl="{{item.imageurl}}" wx:key="index">
+  <view class="image">
+      <image src="{{item.imageurl}}"></image>
+  </view>
+  <view class="text">{{item.text}}</view>
+  <view class="enter">
+      <image src="/assets/profile/jinru.png"></image>
+  </view>
+</view>

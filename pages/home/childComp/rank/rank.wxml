@@ -1,0 +1,28 @@
+<!--pages/home/childComp/rank/rank.wxml-->
+<view class="fashion_box">
+  <view class="title">
+    <i>
+      <span>Score</span>
+      <label>rank</label>
+    </i>
+  </view>
+  <!-- <view class="biaoti">
+         <view class="index"></view>
+      <view class="title2"> </view>
+      <view class="hot"></view>
+    </view> -->
+  <view class="fashion">
+    <view class="item active">
+      <view class="index">{{title.name}}</view>
+      <view class="title2"> {{title.title}}</view>
+      <view class="hot">{{title.hot}}</view>
+    </view>
+    <view class="item" wx:for="{{top10_list}}">
+      <view class="index active3">
+        <view class="index" style="color:{{color_list[index]}}">{{index+1}}</view>
+      </view>
+      <view class="title2" style="color:{{color_list[index]}}"> {{item.userName}}</view>
+      <view class="hot active2">{{item.score}}</view>
+    </view>
+  </view>
+</view>

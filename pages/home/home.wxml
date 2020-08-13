@@ -1,0 +1,28 @@
+<!--pages/home/home.wxml-->
+<view class="page">
+
+<!-- 顶部搜索框的设计 -->
+<view class="null2"></view>
+<view class="null">
+<view id="search">
+    <input placeholder="请输入搜索关键字"bindtap="jump"></input>
+</view>
+<!-- <search id="search" bindtap="jump"></search> -->
+</view>
+
+<!-- 顶部轮播图的展示 -->
+<swiper list="{{LBTimage}}"></swiper>
+
+<!-- 中间三个导航的展示 -->
+<navbox></navbox>
+
+<!-- 分解线 -->
+<fenjiebox></fenjiebox>
+
+<!-- 新闻数据的展示 -->
+<view class="news">
+<newsbox class="newsbox" news="{{newsList}}"></newsbox>
+</view>
+</view>
+
+

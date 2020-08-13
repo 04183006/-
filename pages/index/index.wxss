@@ -1,0 +1,74 @@
+/* pages/change/childCops/js/js.wxss */
+page{
+  height: 100%;
+  box-sizing: border-box;
+  overflow-y: hidden;
+  background-image: url('http://image.xuptdata.com/userimg/start.png');
+  background-size: 100% 100%;
+  /* margin-top: -100rpx; */
+}
+
+.topstyle {
+  width: 100%;
+  height: 100rpx;
+  background: #fc7766;
+  display: flex;
+  justify-content: center;
+}
+
+.son {
+  width: 100%;
+  height: 100%;
+   background: #F7F7F7;
+  border-radius: 100px 100px 0px 0px;
+}
+
+.big_box{
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  z-index: -1;
+}
+
+.big_box image{
+  width: 100%;
+  height: 100%;
+}
+
+.change{
+  position: absolute;
+  bottom: 100rpx;
+  display: inline-block;
+  left: 40%;
+  right: 0;
+  background: #fc7766;
+  color: white;
+
+  /* font-size: 30rpx; */
+  /* letter-spacing: 5rpx; */
+}
+
+.score{
+  position: absolute;
+  bottom: 100rpx;
+  width: 250rpx;
+  height: 60rpx;
+  border-radius: 15rpx;
+  line-height: 60rpx;
+  /* display: inline-block; */
+  left: 10%;
+  right: 0;
+  /* background: #FC7766; */
+  border:10rpx solid rgb(255,213,189);
+  /* box-sizing: border-box; */
+  /* color: white; */
+  letter-spacing: 5rpx;
+  font-size: 35rpx;
+  text-align: center;
+  color: rgb(156, 156, 165)
+}
+
+
+
+
+

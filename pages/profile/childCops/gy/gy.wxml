@@ -1,0 +1,16 @@
+<!--pages/profile/childCops/gy/gy.wxml-->
+<view class="text">
+    <span>我们的团队</span>
+    <label>前端开发：康家豪</label>
+    <label>后端开发：高宇科</label>
+    <label>视觉设计：强  玥</label>
+    <span>我们的学校</span>
+    <label>西安邮电大学</label>
+     <span>办公地点</span>
+    <label>西安邮电大学东区教学楼FZ124</label>
+</view>
+
+<view class="text2">
+     <span>版权所有:</span>
+     <label>© Three Person team </label>
+</view>

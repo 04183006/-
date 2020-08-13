@@ -1,0 +1,57 @@
+/* pages/home/home.wxss */
+page{
+  width: 100%;
+  background: rgb(245, 243, 243);
+}
+
+.null {
+  width: 100%;
+  height: 95rpx;
+  background: #FC7766;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  /* border: 2px solid red; */
+}
+
+.null2{
+  height: 100rpx;
+  /* border: 2px solid red; */
+}
+
+#search {
+  display: block;
+  position: fixed;
+  height: 100rpx;
+  left: 0%;
+  right: 0;
+  top: 0;
+  background: rgb(245, 243, 243);
+  border-radius:100px 100px 0px 0px;
+  /* border: 2px solid red; */
+}
+
+input {
+  width: 80%;
+  background: white;
+  height: 70rpx;
+  text-align: center;
+  margin: 20rpx auto;
+  border-radius: 30rpx;
+  line-height: 70rpx;
+}
+
+.news {
+  display: block;
+  width: 90%;
+  margin-left: 5%;
+  background: white;
+  box-shadow: 2px 2px 2px 2px rgb(236, 233, 233);
+  border-radius: 30rpx;
+  margin-top: 30rpx;
+  margin-bottom: 50rpx;
+  padding-bottom: 30rpx
+}
+

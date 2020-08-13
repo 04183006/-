@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "swiper": "/components/w-swiper/swiper",
+    "navbox":"./childComp/navBox/navBox",
+    "fenjiebox":"./childComp/fenjieBox/fenjiebox",
+    "newsbox":"./childComp/newsBox/newsbox"
+  },
+  "navigationBarTitleText": "您的健康小医师"  
+}

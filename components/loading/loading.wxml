@@ -1,0 +1,6 @@
+<!--components/loading/loading.wxml-->
+<view class="loading">
+  <view class="image2">
+      <image src="../../assets/loading/loding.gif"></image>
+  </view>
+</view>

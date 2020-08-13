@@ -1,0 +1,274 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": true,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": true,
+		"uglifyFileName": true,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"bundle": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.10.2",
+	"appid": "wx096697aa9b697379",
+	"projectname": "Your%20personal%20docto",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "pages/home/home",
+					"pathName": "pages/home/home",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/home/home",
+					"pathName": "pages/home/home",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/home/childComp/news/news",
+					"pathName": "pages/home/childComp/news/news",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/category/category",
+					"pathName": "pages/category/category",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/profile/profile",
+					"pathName": "pages/profile/profile",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/profile/childCops/gy/gy",
+					"pathName": "pages/profile/childCops/gy/gy",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/profile/childCops/gx/gx",
+					"pathName": "pages/profile/childCops/gx/gx",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/profile/childCops/zc/zc",
+					"pathName": "pages/profile/childCops/zc/zc",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/change/change",
+					"pathName": "pages/change/change",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/change/childCops/dt/dt",
+					"pathName": "pages/change/childCops/dt/dt",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/change/childCops/dt/dt",
+					"pathName": "pages/change/childCops/dt/dt",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/change/childCops/dt/dt",
+					"pathName": "pages/change/childCops/dt/dt",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/change/childCops/dt/dt",
+					"pathName": "pages/change/childCops/dt/dt",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/change/childCops/dt/dt",
+					"pathName": "pages/change/childCops/dt/dt",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/change/childCops/dt/dt",
+					"pathName": "pages/change/childCops/dt/dt",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/change/childCops/js/js",
+					"pathName": "pages/change/childCops/js/js",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/yuyin-wenzi/yuyin-wenzi",
+					"pathName": "pages/yuyin-wenzi/yuyin-wenzi",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/home/childComp/news/news",
+					"pathName": "pages/home/childComp/news/news",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/home/childComp/yuyin-wenzi/yuyin-wenzi",
+					"pathName": "pages/home/childComp/yuyin-wenzi/yuyin-wenzi",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/category/childCops/swiper-view/swiper-view",
+					"pathName": "pages/category/childCops/swiper-view/swiper-view",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/category/childCops/detile/detile",
+					"pathName": "pages/category/childCops/detile/detile",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 21,
+					"name": "pages/index/index",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "components/loading/loading",
+					"pathName": "components/loading/loading",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/home/childComp/bdmap/bdmap",
+					"pathName": "pages/home/childComp/bdmap/bdmap",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/home/childComp/fashion/fashion",
+					"pathName": "pages/home/childComp/fashion/fashion",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/home/childComp/rank/rank",
+					"pathName": "pages/home/childComp/rank/rank",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/profile/childCops/mymsg/mymsg",
+					"pathName": "pages/profile/childCops/mymsg/mymsg",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/home/childComp/search/search",
+					"pathName": "pages/home/childComp/search/search",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/profile/childCops/sysmsg/sysmsg",
+					"pathName": "pages/profile/childCops/sysmsg/sysmsg",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/home/childComp/search/search",
+					"pathName": "pages/home/childComp/search/search",
+					"scene": null
+				}
+			]
+		}
+	}
+}

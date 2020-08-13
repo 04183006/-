@@ -1,0 +1,40 @@
+<!--pages/profile/childCops/top.wxml-->
+<view class="page">
+  <view class="topstyle">
+    <view class="name">
+      <span>微信名</span>
+      <label>
+        <open-data type="userNickName"></open-data>
+      </label>
+    </view>
+    <view class="avatar">
+      <view class="image">
+
+        <open-data type="userAvatarUrl" class="circle"></open-data>
+      </view>
+    </view>
+  </view>
+  <view class="son">
+    <view class="image_box">
+      <view class="person">
+        <view class="imagebox">
+          <image src="/assets/profile/wode.png" bindtap="jump"></image>
+        </view>
+        <span>我的消息</span>
+      </view>
+      <view class="system">
+        <view class="imagebox">
+          <image src="/assets/profile/xitong.png" bindtap="jump2"></image>
+        </view>
+        <span>系统消息</span>
+      </view>
+      <view class="shoucang">
+        <!-- <view class="imagebox">
+          <image src="/assets/profile/shoucang.png"></image>
+
+        </view>
+        <span>我的收藏</span> -->
+      </view>
+    </view>
+  </view>
+</view>

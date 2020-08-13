@@ -1,0 +1,31 @@
+/* pages/profile/childCops/sysmsg/sysmsg.wxss */
+page{
+  height: 100%;
+  background: rgb(247, 241, 241);
+}
+
+.notice{
+  width: 100%;
+  height: 250rpx;
+  background: white;
+  color: black;
+  margin-bottom: 20rpx;
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+
+.date{
+  width: 100%;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-indent: 0em;
+  color: rgb(236, 130, 59);
+}
+
+.msg{
+  padding-top: 50rpx;
+  width: 100%;
+  text-align: center;
+  color: rgb(22, 22, 21);
+  box-sizing: border-box;
+}

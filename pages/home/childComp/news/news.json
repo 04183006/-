@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "swiper": "../w-swiper/swiper",
+    "loading":"../../../../components/loading/loading"
+  },
+  "navigationBarTitleText": "新闻详情页"
+}

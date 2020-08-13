@@ -1,0 +1,55 @@
+/* components/fenjieBox/fenjiebox.wxss */
+.imagebox{
+  margin-top: -30rpx;
+  margin-left: 20rpx;
+  width: 400rpx;
+  /* height: 120rpx;  */
+  display: flex;
+  height: 80rpx;
+  /* margin-bottom: 50rpx; */
+  /* border: 2px solid red; */
+}
+
+.imagebox .text{
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 36rpx;
+  text-align: center;
+  margin-left: 30rpx;
+   /* border: 2px solid red; */
+}
+
+.imagebox .symbol{
+  width: 10rpx;
+  height: 25rpx;
+  margin-top: 30rpx;
+  box-sizing: border-box;
+  background:#FC7766;
+  margin-left: 10rpx;
+  border-radius: 20rpx 5rpx 30rpx 0;
+}
+
+.imagebox .symbol1{
+  width: 10rpx;
+  height: 25rpx;
+  margin-top: 30rpx;
+  box-sizing: border-box;
+  background: rgb(250, 137, 122);
+  margin-left: 7rpx;
+  border-radius: 20rpx 5rpx 30rpx 0;
+}
+
+.imagebox .symbol2{
+  width: 10rpx;
+  height: 25rpx;
+  margin-top: 30rpx;
+  box-sizing: border-box;
+  background: rgb(250, 155, 143);
+  margin-left: 7rpx;
+  border-radius: 20rpx 5rpx 30rpx 0;
+}
+
+/* .imagebox image{
+  width: 150rpx;
+  height: 100%;
+} */

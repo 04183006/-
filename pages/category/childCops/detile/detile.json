@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "loading": "../../../../components/loading/loading"
+  },
+  "navigationBarTitleText": "救助详情页"
+}

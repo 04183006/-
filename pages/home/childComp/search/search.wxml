@@ -1,0 +1,51 @@
+<!--pages/home/childComp/search/search.wxml-->
+<view class="search_box">
+    <input placeholder="请输入搜索关键字"  bindinput="getValue"></input>
+</view>
+<view class="item2" wx:if="{{show0}}">没有找到相关信息</view>
+<view class="title" wx:if="{{show1}}">
+    <view class="item" wx:key="index" bindtap="jump" wx:for="{{dataList}}" data-hotspot="{{item.hotspot}}" data-img="{{item.img}}" data-informationId="{{item.informationId}}" data-informationName="{{item.informationName}}" data-introduce="{{item.introduce}}" data-method="{{item.method}}">
+     <view class="text">
+         {{item.informationName}}
+     </view>
+
+      <view class="image">
+    <image src="../../../../assets/profile/jinru.png"></image>
+    </view>
+    </view>
+    
+</view>
+<view class="rdtj">
+ <view class="imagebox">
+       <view class="text">相关搜索发现</view>
+       <view class="symbol"></view>
+       <view class="symbol1"></view>
+       <view class="symbol2"></view>
+    </view>
+  <view class="item" wx:for="{{gxmsg}}" wx:key="index"  bindtap="jump"
+  data-hotspot="{{item.hotspot}}" data-img="{{item.img}}" data-informationId="{{item.informationId}}" data-informationName="{{item.informationName}}" data-introduce="{{item.introduce}}" data-method="{{item.method}}">
+    <view class="text">
+         {{item.informationName}}
+     </view>
+      <view class="image">
+    <image src="../../../../assets/profile/jinru.png"></image>
+    </view>
+  </view>
+</view>
+<view class="gxtj">
+ <view class="imagebox">
+       <view class="text">热点病情咨询</view>
+       <view class="symbol"></view>
+       <view class="symbol1"></view>
+       <view class="symbol2"></view>
+    </view>
+     <view class="item" wx:for="{{rdmsg}}" wx:key="index"  bindtap="jump"
+  data-hotspot="{{item.hotspot}}" data-img="{{item.img}}" data-informationId="{{item.informationId}}" data-informationName="{{item.informationName}}" data-introduce="{{item.introduce}}" data-method="{{item.method}}">
+    <view class="text">
+         {{item.informationName}}
+     </view>
+      <view class="image">
+    <image src="../../../../assets/profile/jinru.png"></image>
+    </view>
+  </view>
+</view>

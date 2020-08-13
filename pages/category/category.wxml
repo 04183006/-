@@ -1,0 +1,71 @@
+<!--pages/category/category.wxml-->
+<!-- 页面加载 -->
+<!-- 顶部导航样式 -->
+<view class="topstyle">
+  <view class="son">
+  </view>
+</view>
+<view class="fenlei">
+  <view class="{{isShow1 == true? 'avtive': 'item'}}" data-id="1" bindtap="changeid1">居家救助</view>
+  <view class="{{isShow2 == true? 'avtive': 'item'}}" data-id="2" bindtap="changeid2">野外救助</view>
+  <view class="{{isShow3 == true? 'avtive': 'item'}}" data-id="3" bindtap="changeid3">慢性疾病</view>
+</view>
+
+<!-- 轮播3D图 -->
+<view class='list' wx:if="{{isShow1}}">
+
+  <swiper indicator-active-color="#FC7766" autoplay="{{false}}" previous-margin="{{'100rpx'}}" next-margin="{{'100rpx'}}" bindchange="swiperChange">
+    <block wx:for="{{url_list1}}" wx:key="index">
+      <swiper-item>
+        <image bindtap="jump" data-hotspot="{{item.hotspot}}" data-img="{{item.img}}" data-informationId="{{item.informationId}}" data-informationName="{{item.informationName}}" data-introduce="{{item.introduce}}" data-method="{{item.method}}" src="{{item.rotationimg}}"
+          class="slide-image {{swiperIndex == index ? 'active' : ''}}" />
+
+
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="process">
+    <progress percent="{{(swiperIndex + 1) * 20}}" color="#FC7766" stroke-width="15" border-radius="10" />
+  </view>
+</view>
+
+<view class='list' wx:if="{{isShow2}}">
+
+  <swiper indicator-active-color="#FC7766" autoplay="{{false}}" previous-margin="{{'100rpx'}}" next-margin="{{'100rpx'}}" bindchange="swiperChange">
+    <block wx:for="{{url_list2}}" wx:key="index">
+      <swiper-item>
+        <image bindtap="jump" src="{{item.rotationimg}}" data-hotspot="{{item.hotspot}}" data-img="{{item.img}}" data-informationId="{{item.informationId}}" data-informationName="{{item.informationName}}" data-introduce="{{item.introduce}}" data-method="{{item.method}}"
+          class="slide-image {{swiperIndex == index ? 'active' : ''}}" />
+
+
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="process">
+    <progress percent="{{(swiperIndex + 1) * 20}}" color="#FC7766" stroke-width="15" border-radius="10" />
+  </view>
+</view>
+
+<view class='list' wx:if="{{isShow3}}">
+
+  <swiper indicator-active-color="#FC7766" autoplay="{{false}}" previous-margin="{{'100rpx'}}" next-margin="{{'100rpx'}}" bindchange="swiperChange">
+    <block wx:for="{{url_list3}}" wx:key="index">
+      <swiper-item>
+        <image bindtap="jump" src="{{item.rotationimg}}" data-hotspot="{{item.hotspot}}" data-img="{{item.img}}" data-informationId="{{item.informationId}}" data-informationName="{{item.informationName}}" data-introduce="{{item.introduce}}" data-method="{{item.method}}"
+          src="{{item.rotationimg}}" class="slide-image {{swiperIndex == index ? 'active' : ''}}" />
+
+
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="process">
+    <progress percent="{{(swiperIndex + 1) * 20}}" color="#FC7766" stroke-width="15" border-radius="10" />
+  </view>
+</view>
+
+
+<view class="topstyle2">
+  <view class="son2">
+    给您最贴心的救助指导！
+  </view>
+</view>

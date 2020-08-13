@@ -1,0 +1,119 @@
+/* pages/profile/childCops/top.wxss */
+page {
+  height: 100%;
+  background-color: white;
+}
+
+.topstyle {
+  width: 100%;
+  height: 350rpx;
+  background: #fc7766;
+  display: flex;
+  border-radius: 0px 0px 100rpx 100rpx;
+}
+
+.name {
+  flex: 1;
+  /* border: 2px solid red; */
+  height: 150rpx;
+  margin-top: 50rpx;
+  text-align: center;
+}
+
+.name span {
+  font-size: 40rpx;
+  display: block;
+  color: white;
+}
+
+.name label {
+  padding: 5rpx;
+  color: rgb(236, 206, 206);
+  border-bottom: 2px solid rgb(236, 206, 206);
+}
+
+.avatar {
+  flex: 1;
+  /* border: 2px solid green; */
+  height: 150rpx;
+  margin-top: 50rpx;
+}
+
+.avatar .image {
+  margin: 0 auto;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid white;
+}
+
+
+
+.son {
+  width: 80%;
+  height: 250rpx;
+  background: white;
+  margin-left: 10%;
+  margin-top: -120rpx;
+  border-radius: 30rpx;
+  box-sizing: border-box;
+  padding: 20rpx;
+  /* border: 2px solid red; */
+  box-shadow: 2px 2px 5px rgb(168, 161, 161);
+}
+
+.image_box{
+  width: 100%;
+  /* margin: 40rpx auto; */
+  height: 200rpx;
+  /* border: 2px solid red; */
+  display: flex;
+  position: relative;
+}
+
+.person{
+  flex: 1;
+  /* border: 2px solid red; */
+  /* border-right: 2px solid  #f5eeed; */
+  text-align: center;
+  font-size: 30rpx;
+}
+
+.system{
+  flex: 1;
+  /* border-left: 2px solid  #f5eeed; */
+  /* border: 2px solid red; */
+  font-size: 30rpx;
+  text-align: center;
+}
+
+.shoucang{
+  width: 4px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 50%;
+  background:  #f5eeed;
+  /* border: 2px solid red; */
+}
+
+.imagebox{
+  width: 70rpx;
+  margin: 30rpx auto;
+  height: 70rpx;
+  text-align: center;
+  /* border: 2px solid red; */
+}
+
+.imagebox image{
+  width: 100%;
+  height: 100%;
+}
+
+.system{
+  flex: 1;
+}

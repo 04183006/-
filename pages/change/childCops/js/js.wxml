@@ -1,0 +1,13 @@
+<!--pages/change/childCops/js/js.wxml-->
+<view class="topstyle">
+  <view class="son">
+  </view>
+</view>
+<view class="big_box">
+  <view class="score">
+    <span>成绩: </span>
+    <label>{{score}}</label>
+  </view>
+  <button class="change" bindtap="jump" style="width:250rpx;height:80rpx;border-radius: 15rpx;">退出</button>
+
+</view>

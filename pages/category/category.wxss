@@ -1,0 +1,120 @@
+/* pages/category/category.wxss */
+
+
+.topstyle {
+  width: 100%;
+  height: 100rpx;
+  background: #fc7766;
+  display: flex;
+  justify-content: center;
+}
+
+.son {
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 100px 100px 0px 0px;
+  /* border-bottom: 1px solid rgb(219, 211, 211); */
+}
+
+.topstyle2 {
+  width: 100%;
+  height: 100rpx;
+  background: #fc7766;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  /* z-index: -1; */
+  justify-content: center;
+}
+
+.son2 {
+  width: 100%;
+  height: 80%;
+  background: white;
+  border-radius: 0px 0px 100px 100px;
+  border-bottom: 1px solid rgb(219, 211, 211);
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 35rpx;
+  color: rgb(136, 130, 130)
+}
+
+
+.fenlei {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  line-height: 65rpx;
+  justify-content: center;
+  font-size: 35rpx;
+}
+
+.item {
+  flex: 1;
+  padding: 2px;
+  margin-right: 20rpx;
+  text-align: center;
+  border: 1px solid rgb(119, 119, 119);
+  box-shadow: 2px 5px 10px rgb(207, 169, 99);
+  border-radius: 5px;
+  color: rgb(110, 110, 110);
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+ .avtive {
+  flex: 1;
+  padding: 2px;
+  margin-right: 20rpx;
+  text-align: center;
+  /* border: 1px solid rgb(119, 119, 119); */
+  /* box-shadow: 2px 2px 2px rgb(170, 153, 153); */
+  box-shadow: 2px 5px 10px rgb(207, 169, 99);
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  background:  rgb(241, 158, 110);
+}
+
+.swiper{
+  display: block;
+  /* border: 2px solid red; */
+  box-sizing: border-box;
+  margin-bottom: 30rpx;
+}
+
+swiper{
+  margin-top: 30rpx;
+  width: 750rpx;
+  height: 800rpx;
+  /* border: 2px solid red; */
+  box-sizing: border-box;
+}
+swiper-item{
+  padding-top: 100rpx;
+}
+swiper-item image{
+  width: 450rpx;
+  height: 650rpx;
+  position: absolute;
+  left: 50%;
+  margin-left: -230rpx;
+  /* border: 2px solid red; */
+  /* margin-bottom: 100rpx; */
+  /* box-shadow: 2px 2px 2px rgb(221, 202, 151); */
+}
+image.active{
+  transform: scale(1.14);
+  transition:all .2s ease-in 0s;
+}
+
+.process{
+  width: 60%;
+  margin-top: 50rpx;
+  margin-left: 20%;
+  height: 50rpx;
+}
+

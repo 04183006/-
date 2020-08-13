@@ -1,0 +1,14 @@
+<!--pages/profile/profile.wxml-->
+<!-- 顶部导航样式 -->
+<top></top>
+
+<!-- 中间样式设置 -->
+
+<!-- 底部样式设置 -->
+<bottom class="bottom_style"></bottom>
+
+<!-- 退出按钮 -->
+<!-- // target 是miniProgram  open-type是 exit 时有效 -->
+<navigator hover-class="navigator-hover"  target="miniProgram" open-type='exit' class="exit"><text decode="true">退&nbsp;&nbsp;出</text></navigator>
+
+

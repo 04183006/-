@@ -1,0 +1,20 @@
+<!--pages/profile/childCops/gx/gx.wxml-->
+
+<view class="text">
+  <view class="person">
+    <span>用户名称：</span><label>{{userName}}</label>
+  </view>
+  <view class="msg">
+     <view class="person">
+    <span>用户建议：</span><label></label>
+  </view>
+    <textarea placeholder="请输入您的建议......" value="{{value0}}" bindinput="getMsg">
+    </textarea>
+     <view class="submit">
+      <button bindtap="submit">提交建议</button>
+  </view>
+  </view>
+  <view class="shoucang" wx:if="{{submitShow}}">
+  感谢您的建议！
+</view>
+</view>

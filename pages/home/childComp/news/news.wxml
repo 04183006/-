@@ -1,0 +1,26 @@
+<!--pages/news/news.wxml-->
+
+<view class="first" style="display:{{first_show}}">
+<loading></loading>
+</view>
+
+<view class="second" style="display:{{second_show}}">
+<swiper list="{{imageList}}"></swiper>
+<view class="something_box">
+  <view class="name">新闻栏目</view>
+  <view class="title">{{title}}</view>
+  <view class="name">新闻阅读</view>
+  <view class="yuedu">{{report}}</view>
+  <view class="name">新闻来源</view>
+  <view class="web">{{web}}</view>
+</view>
+</view>
+
+
+
+
+
+
+
+
+

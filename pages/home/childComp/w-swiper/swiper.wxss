@@ -1,0 +1,12 @@
+/* components/w-swiper/swiper.wxss */
+.swiper{
+  width: 100%;
+  /* margin: 30rpx auto; */
+  /* border-radius: 20px; */
+  overflow: hidden;
+}
+
+.swiper-item image{
+  width: 100%;
+}
+

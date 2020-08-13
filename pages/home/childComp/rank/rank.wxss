@@ -1,0 +1,119 @@
+/* pages/home/childComp/rank/rank.wxss */
+page {
+  height: 100%;
+  background: linear-gradient(to bottom right, #eaa29c, #e9dbb2);
+  overflow-y: hidden;
+}
+
+.fashion_box {
+  width: 85%;
+  background: white;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  height: 1100rpx;
+  margin-top: 10%;
+  text-align: center;
+  border-radius: 40rpx;
+  box-shadow: 2px 2px 2px rgb(218, 214, 214);
+}
+
+.title {
+  width: 450rpx;
+  height: 100rpx;
+  background: black;
+  border-radius: 0rpx 60rpx 0rpx 60rpx;
+  margin: 0rpx auto;
+  margin-top: 50rpx;
+  transform:rotate(-2deg);
+  /* border: 2px solid red; */
+  line-height: 100rpx;
+}
+
+.title span {
+  color: gold;
+  font-size: 100rpx;
+  font-family: 'Trebuchet MS',
+                 'Lucida Sans Unicode',
+                 'Lucida Grande',
+                 'Lucida Sans',
+                 Arial,
+                 sans-serif;
+}
+
+.title label {
+  color: white;
+  font-size: 80rpx;
+  font-family: 'Trebuchet MS',
+                 'Lucida Sans Unicode',
+                 'Lucida Grande',
+                 'Lucida Sans',
+                 Arial,
+                 sans-serif;
+}
+
+.fashion{
+  width: 95%;
+  height: 850rpx;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  margin-top:50rpx; 
+  
+}
+
+.fashion .item{
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  height: 70rpx;
+  margin-top: 8rpx;
+  border-bottom: 1px solid rgb(245, 239, 239);
+}
+
+.active{
+  color: rgb(228, 164, 80);
+}
+
+/* .bitaoti{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  height: 75rpx;
+  margin-top: 8rpx;
+  border-bottom: 1px solid rgb(182, 175, 175);
+} */
+
+.index{
+  width: 100rpx;
+  /* color: rgb(124, 235, 20); */
+  /* border: 2px solid red; */
+}
+
+.index .avatar{
+  width: 60rpx;
+  margin: 0 auto;
+  /* margin-top: 15rpx; */
+  height: 60rpx;
+  /* border: 2px solid green; */
+}
+
+.avatar image{
+  width:100%;
+  height: 100%;
+}
+
+
+.title2{
+  flex: 7;
+  text-align: left;
+  /* border: 2px solid red; */
+}
+
+.hot{
+  flex: 1.5;
+}
+
+.active2{
+  color: rgb(236, 89, 89);
+   font-size: 28rpx;
+}

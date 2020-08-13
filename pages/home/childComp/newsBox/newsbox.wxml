@@ -1,0 +1,25 @@
+<!--pages/home/childComp/newsBox/newsbox.wxml-->
+
+
+
+
+
+
+
+ <view class="newsbox" wx:for="{{news}}" wx:key="index" bindtap="jumpDetails" data-report="{{item.news.report}}" data-image="{{item.image[0].url}}" data-image2="{{item.image[1].url}}" data-time="{{item.news.time}}" data-web="{{item.news.web}}"data-newsId="{{item.newsId}}" data-title="{{item.news.title}}">
+  <block>
+    
+      <view class="left">
+          <span>{{item.news.title}}</span>
+          <label>置顶 {{item.news.time}}</label>
+      </view>
+      <view class="right">
+          <view class="img">
+            <image src="{{item.news.littleImage}}"></image>
+          </view>
+      </view>
+     
+
+  </block>
+
+</view> 

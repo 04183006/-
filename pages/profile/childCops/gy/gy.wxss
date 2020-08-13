@@ -1,0 +1,45 @@
+/* pages/profile/childCops/gy/gy.wxss */
+
+page {
+  height: 100%;
+  background-color: rgb(243, 237, 237);
+  overflow-y: hidden;
+}
+
+.text {
+  width: 80%;
+  height: 500rpx;
+  margin: 0 auto;
+  margin-top: 80rpx;
+  background: white;
+  border-radius: 30rpx;
+  box-shadow: 2px 2px 4px rgb(199, 195, 195);
+  background-color: rgb(195, 214, 240);
+  background-image: linear-gradient(to bottom right, rgb(195, 214, 240), rgb(226, 216, 216));
+  padding: 30rpx;
+}
+
+span {
+  display: block;
+  margin-top: 20rpx;
+  color: rgb(95, 94, 93);
+}
+
+label {
+  display: block;
+  text-indent: 3em;
+  color: white;
+}
+
+.text2 {
+  width: 80%;
+  height: 100rpx;
+  margin: 0rpx auto;
+  margin-top: 50rpx;
+  background: white;
+  border-radius: 30rpx;
+  box-shadow: 2px 2px 4px rgb(199, 195, 195);
+  background-color: rgb(195, 214, 240);
+  background-image: linear-gradient(to bottom right, rgb(195, 214, 240), rgb(226, 216, 216));
+  padding: 30rpx;
+}

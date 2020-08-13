@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home",
+    "pages/category/category",
+    "pages/change/change",
+    "pages/profile/profile",
+    "pages/home/childComp/news/news",
+    "pages/profile/childCops/gy/gy",
+    "pages/profile/childCops/gx/gx",
+    "pages/profile/childCops/zc/zc",
+    "pages/change/childCops/dt/dt",
+    "pages/change/childCops/js/js",
+    "pages/category/childCops/detile/detile",
+    "components/loading/loading",
+    "pages/home/childComp/bdmap/bdmap",
+    "pages/home/childComp/fashion/fashion",
+    "pages/home/childComp/rank/rank",
+    "pages/profile/childCops/mymsg/mymsg",
+    "pages/profile/childCops/sysmsg/sysmsg",
+    "pages/home/childComp/search/search"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#FC7766",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#eeb174",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/assets/tabbar/home.png",
+        "selectedIconPath": "/assets/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "/assets/tabbar/fenlei.png",
+        "selectedIconPath": "/assets/tabbar/fenlei-active.png"
+      },
+      {
+        "pagePath": "pages/change/change",
+        "text": "答题",
+        "iconPath": "/assets/tabbar/xuexi.png",
+        "selectedIconPath": "/assets/tabbar/xuexi-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "/assets/tabbar/wode.png",
+        "selectedIconPath": "/assets/tabbar/wode-active.png"
+      }
+    ]
+  }
+}

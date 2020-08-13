@@ -1,0 +1,38 @@
+<!--pages/profile/childCops/mymsg/mymsg.wxml-->
+<view class="notice" wx:if="{{show0}}">
+暂无我的相关消息！
+</view>
+
+<view wx:if="{{show1}}">
+<view class="item" wx:for="{{commentList}}" wx:key="index">
+  <view class="top">
+    <view class="img">
+      <image src="{{item.user.img}}"></image>  
+    </view>
+    <view class="center">
+    {{item.user.userName}}
+    </view>
+    <view class="you">
+      <span bindtap="delete" data-msgId="{{item.message.messageId}}">删除</span>
+    </view>
+  </view>
+  
+
+
+  <view class="mid">
+     <view class="right">
+     <!-- {{item.informationName}} -->
+    点赞了您在 <span>{{item.message.informationName}}</span> 中的评论！
+    </view>
+     <!-- <view class="right2"> -->
+     <!-- {{item.informationName}} -->
+    
+    <!-- </view> -->
+  </view>
+
+  <view class="bottom">
+    {{item.message.date}}
+  </view>
+</view>
+
+</view>

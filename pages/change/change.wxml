@@ -1,0 +1,12 @@
+<!--pages/change/change.wxml-->
+<!-- <text>pages/change/change.wxml</text> -->
+
+
+
+<view class="topstyle">
+  <view class="son">
+  </view>
+</view>
+<view class="big_box">
+  <button class="change" bindtap="jump">开启挑战</button>
+</view>

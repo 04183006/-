@@ -1,0 +1,26 @@
+<!--pages/home/childComp/fashion/fashion.wxml-->
+<view class="fashion_box">
+  <view class="title">
+    <i>
+      <span>Hot</span>
+      <label>spot</label>
+    </i>
+  </view>
+    <!-- <view class="biaoti">
+         <view class="index"></view>
+      <view class="title2"> </view>
+      <view class="hot"></view>
+    </view> -->
+  <view class="fashion">
+     <view class="item active">
+      <view class="index">{{title.name}}</view>
+      <view class="title2"> {{title.title}}</view>
+      <view class="hot">{{title.hot}}</view>
+    </view>
+    <view class="item" wx:for="{{top10_list}}">
+      <view class="index"  style="color:{{color_list[index]}}">{{index + 1}}</view>
+      <view class="title2"  style="color:{{color_list[index]}}"> {{item.informationName}}</view>
+      <view class="hot">{{item.hotspot}}</view>
+    </view>
+  </view>
+</view>
